@@ -1,0 +1,4 @@
+as you can seei already have a next JS project in app/page.tsx i want a site for “DAOG”. 
+the site must use tailwind css and react and typescipt . my site presents my NFT collection, it must be responsive. 
+it consists of: -a responsive navbar with a hamburger menu in mobile format. category “Home” “NFT” “About” “roadmap” “faq” -section home , 
+responsive with a h1 “chew with the crew” on the left, a p underneath and an image on the right.
