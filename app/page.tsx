@@ -7,7 +7,7 @@ import AboutSection from '@/components/AboutSection';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 font-sans">
       <Navbar />
       <main>
         <HomeSection />
