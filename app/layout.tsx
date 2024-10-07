@@ -1,5 +1,5 @@
 import './globals.css'
-import { poppins, inter, freckleFace } from './fonts'
+import { poppins } from './fonts'
 
 export const metadata = {
   title: 'DAOG NFT Collection',
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${poppins.variable} ${inter.variable} ${freckleFace.variable}`}>
+    <html lang="en" className={poppins.className}>
       <body>{children}</body>
     </html>
   )

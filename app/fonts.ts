@@ -1,21 +1,8 @@
-import { Poppins, Inter, Freckle_Face } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
 export const poppins = Poppins({
-  weight: ['400', '600', '700'],  // Add the weights you need
+  weight: ['400', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-poppins',
-})
-
-export const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-})
-
-export const freckleFace = Freckle_Face({
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-freckle-face',
 })
