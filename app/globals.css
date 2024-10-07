@@ -26,9 +26,4 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-/* Ensure Poppins is applied globally */
-html {
-  font-family: var(--font-poppins), sans-serif;
-}
-
 /* Remove any other font-related styles */

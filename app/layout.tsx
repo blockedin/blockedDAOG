@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${poppins.variable} font-sans`}>
-      <body>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   )
 }

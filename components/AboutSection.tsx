@@ -10,7 +10,7 @@ interface AboutSectionProps {
 
 const AboutSection: React.FC<AboutSectionProps> = ({ id }) => {
   return (
-    <section id={id} className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id={id} className="relative h-screen flex items-center justify-center overflow-hidden font-sans">
       {/* GIF Background */}
       <div className="absolute inset-0 z-0">
         <Image
