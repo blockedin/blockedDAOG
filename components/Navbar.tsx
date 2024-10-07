@@ -34,11 +34,11 @@ const Navbar: React.FC = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link href="/" className="font-freckle hover:bg-gray-900 px-3 py-2 rounded-md">Home</Link>
-              <Link href="#nft" className="font-freckle hover:bg-gray-900 px-3 py-2 rounded-md">NFT</Link>
-              <Link href="#roadmap" className="font-freckle hover:bg-gray-900 px-3 py-2 rounded-md">Roadmap</Link>
-              <Link href="#faq" className="font-freckle hover:bg-gray-900 px-3 py-2 rounded-md">FAQ</Link>
-              <Link href="#about" className="font-freckle hover:bg-gray-900 px-3 py-2 rounded-md">About</Link>
+              <Link href="/" className="hover:bg-gray-900 px-3 py-2 rounded-md">Home</Link>
+              <Link href="#nft" className="hover:bg-gray-900 px-3 py-2 rounded-md">NFT</Link>
+              <Link href="#roadmap" className="hover:bg-gray-900 px-3 py-2 rounded-md">Roadmap</Link>
+              <Link href="#faq" className="hover:bg-gray-900 px-3 py-2 rounded-md">FAQ</Link>
+              <Link href="#about" className="hover:bg-gray-900 px-3 py-2 rounded-md">About</Link>
             </div>
           </div>
           <div className="md:hidden">
@@ -60,11 +60,11 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="md:hidden relative">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link href="/" className="font-freckle block hover:bg-gray-900 px-3 py-2 rounded-md">Home</Link>
-            <Link href="#nft" className="font-freckle block hover:bg-gray-900 px-3 py-2 rounded-md">NFT</Link>
-            <Link href="#roadmap" className="font-freckle block hover:bg-gray-900 px-3 py-2 rounded-md">Roadmap</Link>
-            <Link href="#faq" className="font-freckle block hover:bg-gray-900 px-3 py-2 rounded-md">FAQ</Link>
-            <Link href="#about" className="font-freckle block hover:bg-gray-900 px-3 py-2 rounded-md">About</Link>
+            <Link href="/" className="hover:bg-gray-900 px-3 py-2 rounded-md">Home</Link>
+            <Link href="#nft" className="hover:bg-gray-900 px-3 py-2 rounded-md">NFT</Link>
+            <Link href="#roadmap" className="hover:bg-gray-900 px-3 py-2 rounded-md">Roadmap</Link>
+            <Link href="#faq" className="hover:bg-gray-900 px-3 py-2 rounded-md">FAQ</Link>
+            <Link href="#about" className="hover:bg-gray-900 px-3 py-2 rounded-md">About</Link>
           </div>
         </div>
       )}
