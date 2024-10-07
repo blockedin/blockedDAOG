@@ -51,7 +51,7 @@ const NFTSection: React.FC<NFTSectionProps> = ({ id }) => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-5xl font-bold mb-8 font-freckle text-center">DAOG NFT Collection</h2>
         <p className="text-xl mb-16 font-inter text-center max-w-3xl mx-auto">
-        They're free, but you'll have to hustle to snag one—nothing's that easy!
+          They&apos;re free, but you&apos;ll have to hustle to snag one—nothing&apos;s that easy!
         </p>
 
         <div className="relative">

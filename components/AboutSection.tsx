@@ -25,10 +25,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ id }) => {
       {/* Content */}
       <div className="relative z-10 text-white text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-5xl font-bold mb-8 font-freckle">About DAOG</h2>
-        <p className="text-xl mb-12 font-inter">
-          DAOG is more than just an NFT collection; it's a key to a community of SUI builders. 
-        
-        </p>
+        <p>BlockedIn&apos;s mission is to revolutionize the way we connect and collaborate in the digital age.</p>
 
         {/* Social Icons */}
         <div className="flex justify-center space-x-12">
