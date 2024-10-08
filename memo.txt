@@ -1,2 +1,0 @@
- -section NFT an h2 with below a p and below an automatic carrousell of square image, there are 4 “nft.png”. -about” section: on the left an image with a p underneath and on the right a twitter icon and a discord icon. -roadmap” section, must include a roadmap in Q1, Q2, 
-Q3 and Q4 with 3 points in each, the roadmap must be responsive -faq” section, with questions to be unrolled to reveal the answers, 4 in all
