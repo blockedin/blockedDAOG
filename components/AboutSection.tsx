@@ -29,10 +29,10 @@ const AboutSection: React.FC<AboutSectionProps> = ({ id }) => {
 
         {/* Social Icons */}
         <div className="flex justify-center space-x-12">
-          <a href="https://twitter.com/DAOG" target="_blank" rel="noopener noreferrer" className="text-[#dd4c31] hover:text-[#ff6b4a] transition-colors duration-300">
+          <a href="https://x.com/Daog_sui" target="_blank" rel="noopener noreferrer" className="text-[#dd4c31] hover:text-[#ff6b4a] transition-colors duration-300">
             <FaTwitter size={60} className="filter drop-shadow-lg" style={{ filter: 'drop-shadow(0 0 2px rgba(255, 255, 255, 0.5))' }} />
           </a>
-          <a href="https://discord.gg/DAOG" target="_blank" rel="noopener noreferrer" className="text-[#dd4c31] hover:text-[#ff6b4a] transition-colors duration-300">
+          <a href="https://discord.gg/vWdtYkTU" target="_blank" rel="noopener noreferrer" className="text-[#dd4c31] hover:text-[#ff6b4a] transition-colors duration-300">
             <FaDiscord size={60} className="filter drop-shadow-lg" style={{ filter: 'drop-shadow(0 0 2px rgba(255, 255, 255, 0.5))' }} />
           </a>
         </div>
